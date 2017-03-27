@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16F8094E937BFE5EE0C288EB /* Pods_FortgroupTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919A9FF108EC7B4538F1A518 /* Pods_FortgroupTest.framework */; };
+		4EA582F41E873F6300AB5608 /* OneButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA582F31E873F6300AB5608 /* OneButtonTableViewCell.swift */; };
+		4EA582F61E873F7B00AB5608 /* ThreeButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA582F51E873F7B00AB5608 /* ThreeButtonsTableViewCell.swift */; };
+		4EA582F81E87697400AB5608 /* UIButton+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA582F71E87697400AB5608 /* UIButton+Title.swift */; };
+		4EAB54AB1E866144007BCE34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54AA1E866144007BCE34 /* AppDelegate.swift */; };
+		4EAB54AD1E866144007BCE34 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54AC1E866144007BCE34 /* TableViewController.swift */; };
+		4EAB54B01E866144007BCE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB54AE1E866144007BCE34 /* Main.storyboard */; };
+		4EAB54B21E866144007BCE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB54B11E866144007BCE34 /* Assets.xcassets */; };
+		4EAB54B51E866144007BCE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB54B31E866144007BCE34 /* LaunchScreen.storyboard */; };
+		4EAB54C01E866144007BCE34 /* FortgroupTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54BF1E866144007BCE34 /* FortgroupTestTests.swift */; };
+		4EAB54CC1E8663E4007BCE34 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54CB1E8663E4007BCE34 /* NewsModel.swift */; };
+		4EAB54D01E8666B7007BCE34 /* MediaContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54CF1E8666B7007BCE34 /* MediaContentModel.swift */; };
+		4EAB54D21E86688E007BCE34 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54D11E86688E007BCE34 /* ContentModel.swift */; };
+		4EAB54D51E866C48007BCE34 /* RestServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54D41E866C48007BCE34 /* RestServiceRequest.swift */; };
+		4EAB54D71E866CBB007BCE34 /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54D61E866CBB007BCE34 /* ServiceClient.swift */; };
+		4EAB54DA1E8672AD007BCE34 /* ImageItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54D91E8672AD007BCE34 /* ImageItemTableViewCell.swift */; };
+		4EAB54DF1E867AE8007BCE34 /* String+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54DE1E867AE8007BCE34 /* String+Serialization.swift */; };
+		4EAB54E21E867CD4007BCE34 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54E11E867CD4007BCE34 /* DataManager.swift */; };
+		4EAB54E41E8683C5007BCE34 /* SerializableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54E31E8683C5007BCE34 /* SerializableObject.swift */; };
+		4EAB54E81E869C07007BCE34 /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54E71E869C07007BCE34 /* String+Date.swift */; };
+		4EAB54EA1E86EF78007BCE34 /* TransformTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54E91E86EF78007BCE34 /* TransformTypes.swift */; };
+		4EAB54EC1E870A9A007BCE34 /* Notification+FortgroupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB54EB1E870A9A007BCE34 /* Notification+FortgroupTest.swift */; };
+		F8E7D6685923A80A0C7BEB11 /* Pods_FortgroupTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81E6FB5077E771D258F9391 /* Pods_FortgroupTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EAB54BC1E866144007BCE34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EAB549F1E866143007BCE34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EAB54A61E866143007BCE34;
+			remoteInfo = FortgroupTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AE6CDA9DD943FB8D6798CF /* Pods-FortgroupTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortgroupTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortgroupTest/Pods-FortgroupTest.debug.xcconfig"; sourceTree = "<group>"; };
+		0CFC69A609300222731E4F04 /* Pods-FortgroupTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortgroupTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortgroupTestTests/Pods-FortgroupTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E65D8A4D95486FF9C573F35 /* Pods-FortgroupTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortgroupTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortgroupTest/Pods-FortgroupTest.release.xcconfig"; sourceTree = "<group>"; };
+		4EA582F31E873F6300AB5608 /* OneButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneButtonTableViewCell.swift; sourceTree = "<group>"; };
+		4EA582F51E873F7B00AB5608 /* ThreeButtonsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeButtonsTableViewCell.swift; sourceTree = "<group>"; };
+		4EA582F71E87697400AB5608 /* UIButton+Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Title.swift"; sourceTree = "<group>"; };
+		4EAB54A71E866144007BCE34 /* FortgroupTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortgroupTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAB54AA1E866144007BCE34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EAB54AC1E866144007BCE34 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4EAB54AF1E866144007BCE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EAB54B11E866144007BCE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EAB54B41E866144007BCE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EAB54B61E866144007BCE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAB54BB1E866144007BCE34 /* FortgroupTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortgroupTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAB54BF1E866144007BCE34 /* FortgroupTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortgroupTestTests.swift; sourceTree = "<group>"; };
+		4EAB54C11E866144007BCE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAB54CB1E8663E4007BCE34 /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		4EAB54CF1E8666B7007BCE34 /* MediaContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaContentModel.swift; sourceTree = "<group>"; };
+		4EAB54D11E86688E007BCE34 /* ContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		4EAB54D41E866C48007BCE34 /* RestServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestServiceRequest.swift; sourceTree = "<group>"; };
+		4EAB54D61E866CBB007BCE34 /* ServiceClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceClient.swift; sourceTree = "<group>"; };
+		4EAB54D91E8672AD007BCE34 /* ImageItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageItemTableViewCell.swift; sourceTree = "<group>"; };
+		4EAB54DE1E867AE8007BCE34 /* String+Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Serialization.swift"; sourceTree = "<group>"; };
+		4EAB54E11E867CD4007BCE34 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4EAB54E31E8683C5007BCE34 /* SerializableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializableObject.swift; sourceTree = "<group>"; };
+		4EAB54E71E869C07007BCE34 /* String+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
+		4EAB54E91E86EF78007BCE34 /* TransformTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformTypes.swift; sourceTree = "<group>"; };
+		4EAB54EB1E870A9A007BCE34 /* Notification+FortgroupTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+FortgroupTest.swift"; sourceTree = "<group>"; };
+		54F6025CE5EB926FBAE6D377 /* Pods-FortgroupTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortgroupTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortgroupTestTests/Pods-FortgroupTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		919A9FF108EC7B4538F1A518 /* Pods_FortgroupTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortgroupTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81E6FB5077E771D258F9391 /* Pods_FortgroupTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortgroupTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EAB54A41E866143007BCE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F8094E937BFE5EE0C288EB /* Pods_FortgroupTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAB54B81E866144007BCE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E7D6685923A80A0C7BEB11 /* Pods_FortgroupTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F901F04649AC03C8FA2BDCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02AE6CDA9DD943FB8D6798CF /* Pods-FortgroupTest.debug.xcconfig */,
+				1E65D8A4D95486FF9C573F35 /* Pods-FortgroupTest.release.xcconfig */,
+				54F6025CE5EB926FBAE6D377 /* Pods-FortgroupTestTests.debug.xcconfig */,
+				0CFC69A609300222731E4F04 /* Pods-FortgroupTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4EAB549E1E866143007BCE34 = {
+			isa = PBXGroup;
+			children = (
+				4EAB54A91E866144007BCE34 /* FortgroupTest */,
+				4EAB54BE1E866144007BCE34 /* FortgroupTestTests */,
+				4EAB54A81E866144007BCE34 /* Products */,
+				1F901F04649AC03C8FA2BDCF /* Pods */,
+				AA34D069E80577C601C4D910 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EAB54A81E866144007BCE34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB54A71E866144007BCE34 /* FortgroupTest.app */,
+				4EAB54BB1E866144007BCE34 /* FortgroupTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EAB54A91E866144007BCE34 /* FortgroupTest */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB54E01E867CB7007BCE34 /* DataManager */,
+				4EAB54DB1E867821007BCE34 /* Utils */,
+				4EAB54D81E86727A007BCE34 /* UITableViewCells */,
+				4EAB54D31E866B56007BCE34 /* Network */,
+				4EAB54CA1E866335007BCE34 /* Models */,
+				4EAB54AA1E866144007BCE34 /* AppDelegate.swift */,
+				4EAB54AC1E866144007BCE34 /* TableViewController.swift */,
+				4EAB54AE1E866144007BCE34 /* Main.storyboard */,
+				4EAB54B11E866144007BCE34 /* Assets.xcassets */,
+				4EAB54B31E866144007BCE34 /* LaunchScreen.storyboard */,
+				4EAB54B61E866144007BCE34 /* Info.plist */,
+			);
+			path = FortgroupTest;
+			sourceTree = "<group>";
+		};
+		4EAB54BE1E866144007BCE34 /* FortgroupTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB54BF1E866144007BCE34 /* FortgroupTestTests.swift */,
+				4EAB54C11E866144007BCE34 /* Info.plist */,
+			);
+			path = FortgroupTestTests;
+			sourceTree = "<group>";
+		};
+		4EAB54CA1E866335007BCE34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB54CB1E8663E4007BCE34 /* NewsModel.swift */,
+				4EAB54CF1E8666B7007BCE34 /* MediaContentModel.swift */,
+				4EAB54D11E86688E007BCE34 /* ContentModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4EAB54D31E866B56007BCE34 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB54D41E866C48007BCE34 /* RestServiceRequest.swift */,
+				4EAB54D61E866CBB007BCE34 /* ServiceClient.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		4EAB54D81E86727A007BCE34 /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB54D91E8672AD007BCE34 /* ImageItemTableViewCell.swift */,
+				4EA582F31E873F6300AB5608 /* OneButtonTableViewCell.swift */,
+				4EA582F51E873F7B00AB5608 /* ThreeButtonsTableViewCell.swift */,
+			);
+			name = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		4EAB54DB1E867821007BCE34 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB54E31E8683C5007BCE34 /* SerializableObject.swift */,
+				4EAB54DE1E867AE8007BCE34 /* String+Serialization.swift */,
+				4EAB54E71E869C07007BCE34 /* String+Date.swift */,
+				4EAB54E91E86EF78007BCE34 /* TransformTypes.swift */,
+				4EAB54EB1E870A9A007BCE34 /* Notification+FortgroupTest.swift */,
+				4EA582F71E87697400AB5608 /* UIButton+Title.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		4EAB54E01E867CB7007BCE34 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB54E11E867CD4007BCE34 /* DataManager.swift */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		AA34D069E80577C601C4D910 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919A9FF108EC7B4538F1A518 /* Pods_FortgroupTest.framework */,
+				D81E6FB5077E771D258F9391 /* Pods_FortgroupTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EAB54A61E866143007BCE34 /* FortgroupTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAB54C41E866144007BCE34 /* Build configuration list for PBXNativeTarget "FortgroupTest" */;
+			buildPhases = (
+				B93A10931491C41607C1DEAC /* [CP] Check Pods Manifest.lock */,
+				4EAB54A31E866143007BCE34 /* Sources */,
+				4EAB54A41E866143007BCE34 /* Frameworks */,
+				4EAB54A51E866143007BCE34 /* Resources */,
+				E0D25BC24A564CBCCA26FA8D /* [CP] Embed Pods Frameworks */,
+				D22B8B8F245782590E12F534 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortgroupTest;
+			productName = FortgroupTest;
+			productReference = 4EAB54A71E866144007BCE34 /* FortgroupTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EAB54BA1E866144007BCE34 /* FortgroupTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAB54C71E866144007BCE34 /* Build configuration list for PBXNativeTarget "FortgroupTestTests" */;
+			buildPhases = (
+				CBBABF77738282BED8D7C540 /* [CP] Check Pods Manifest.lock */,
+				4EAB54B71E866144007BCE34 /* Sources */,
+				4EAB54B81E866144007BCE34 /* Frameworks */,
+				4EAB54B91E866144007BCE34 /* Resources */,
+				A12A2DDC6D289BA602FBC383 /* [CP] Embed Pods Frameworks */,
+				D13923D1439F6A862406D8AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EAB54BD1E866144007BCE34 /* PBXTargetDependency */,
+			);
+			name = FortgroupTestTests;
+			productName = FortgroupTestTests;
+			productReference = 4EAB54BB1E866144007BCE34 /* FortgroupTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EAB549F1E866143007BCE34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dmitry Rybochkin";
+				TargetAttributes = {
+					4EAB54A61E866143007BCE34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7S572U2C68;
+						ProvisioningStyle = Automatic;
+					};
+					4EAB54BA1E866144007BCE34 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7S572U2C68;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EAB54A61E866143007BCE34;
+					};
+				};
+			};
+			buildConfigurationList = 4EAB54A21E866143007BCE34 /* Build configuration list for PBXProject "FortgroupTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EAB549E1E866143007BCE34;
+			productRefGroup = 4EAB54A81E866144007BCE34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EAB54A61E866143007BCE34 /* FortgroupTest */,
+				4EAB54BA1E866144007BCE34 /* FortgroupTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EAB54A51E866143007BCE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAB54B51E866144007BCE34 /* LaunchScreen.storyboard in Resources */,
+				4EAB54B21E866144007BCE34 /* Assets.xcassets in Resources */,
+				4EAB54B01E866144007BCE34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAB54B91E866144007BCE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A12A2DDC6D289BA602FBC383 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortgroupTestTests/Pods-FortgroupTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B93A10931491C41607C1DEAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBBABF77738282BED8D7C540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D13923D1439F6A862406D8AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortgroupTestTests/Pods-FortgroupTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D22B8B8F245782590E12F534 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortgroupTest/Pods-FortgroupTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D25BC24A564CBCCA26FA8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortgroupTest/Pods-FortgroupTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EAB54A31E866143007BCE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAB54EA1E86EF78007BCE34 /* TransformTypes.swift in Sources */,
+				4EAB54D51E866C48007BCE34 /* RestServiceRequest.swift in Sources */,
+				4EAB54E81E869C07007BCE34 /* String+Date.swift in Sources */,
+				4EAB54D21E86688E007BCE34 /* ContentModel.swift in Sources */,
+				4EAB54AD1E866144007BCE34 /* TableViewController.swift in Sources */,
+				4EAB54EC1E870A9A007BCE34 /* Notification+FortgroupTest.swift in Sources */,
+				4EAB54D01E8666B7007BCE34 /* MediaContentModel.swift in Sources */,
+				4EA582F41E873F6300AB5608 /* OneButtonTableViewCell.swift in Sources */,
+				4EAB54DA1E8672AD007BCE34 /* ImageItemTableViewCell.swift in Sources */,
+				4EAB54CC1E8663E4007BCE34 /* NewsModel.swift in Sources */,
+				4EAB54DF1E867AE8007BCE34 /* String+Serialization.swift in Sources */,
+				4EAB54E21E867CD4007BCE34 /* DataManager.swift in Sources */,
+				4EAB54E41E8683C5007BCE34 /* SerializableObject.swift in Sources */,
+				4EA582F81E87697400AB5608 /* UIButton+Title.swift in Sources */,
+				4EAB54D71E866CBB007BCE34 /* ServiceClient.swift in Sources */,
+				4EAB54AB1E866144007BCE34 /* AppDelegate.swift in Sources */,
+				4EA582F61E873F7B00AB5608 /* ThreeButtonsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAB54B71E866144007BCE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAB54C01E866144007BCE34 /* FortgroupTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EAB54BD1E866144007BCE34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EAB54A61E866143007BCE34 /* FortgroupTest */;
+			targetProxy = 4EAB54BC1E866144007BCE34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EAB54AE1E866144007BCE34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EAB54AF1E866144007BCE34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EAB54B31E866144007BCE34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EAB54B41E866144007BCE34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EAB54C21E866144007BCE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EAB54C31E866144007BCE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EAB54C51E866144007BCE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02AE6CDA9DD943FB8D6798CF /* Pods-FortgroupTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7S572U2C68;
+				INFOPLIST_FILE = FortgroupTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.turing.FortgroupTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4EAB54C61E866144007BCE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E65D8A4D95486FF9C573F35 /* Pods-FortgroupTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7S572U2C68;
+				INFOPLIST_FILE = FortgroupTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.turing.FortgroupTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4EAB54C81E866144007BCE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F6025CE5EB926FBAE6D377 /* Pods-FortgroupTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7S572U2C68;
+				INFOPLIST_FILE = FortgroupTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.turing.FortgroupTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortgroupTest.app/FortgroupTest";
+			};
+			name = Debug;
+		};
+		4EAB54C91E866144007BCE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFC69A609300222731E4F04 /* Pods-FortgroupTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7S572U2C68;
+				INFOPLIST_FILE = FortgroupTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.turing.FortgroupTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortgroupTest.app/FortgroupTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EAB54A21E866143007BCE34 /* Build configuration list for PBXProject "FortgroupTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAB54C21E866144007BCE34 /* Debug */,
+				4EAB54C31E866144007BCE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAB54C41E866144007BCE34 /* Build configuration list for PBXNativeTarget "FortgroupTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAB54C51E866144007BCE34 /* Debug */,
+				4EAB54C61E866144007BCE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAB54C71E866144007BCE34 /* Build configuration list for PBXNativeTarget "FortgroupTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAB54C81E866144007BCE34 /* Debug */,
+				4EAB54C91E866144007BCE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EAB549F1E866143007BCE34 /* Project object */;
+}
